@@ -1,8 +1,8 @@
 <?php
    $host = "localhost";
-   $database = "ttcompsci";
-   $user = "ttcompsci";
-   $pass = "he322sb5x";
+   $database = "???";
+   $user = "???";
+   $pass = "???";
 	
   	function clean($input, $maxlength)
  	{
