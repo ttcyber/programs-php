@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS `programs` (
+  `id` int(32) NOT NULL auto_increment,
+  `ip` varchar(32) NOT NULL,
+  `timein` varchar(32) NOT NULL,
+  `datein` varchar(32) NOT NULL,
+  `pagename` varchar(32) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `programs`
+--
+
+INSERT INTO `programs` (`id`, `ip`, `timein`, `datein`, `pagename`) VALUES
+(1, '71.85.28.11', '06:44:14', '2016-12-16', 'cyber'),
+
+
+select distinct ip from programs where pagename is Cyber-Security;
